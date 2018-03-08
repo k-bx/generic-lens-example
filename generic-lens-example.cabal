@@ -1,0 +1,31 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 9a6e5263101823c9edadfad5e90aa8e8eba380bd4fb2ec2c60fe8b39fc0aa94f
+
+name:           generic-lens-example
+version:        0.1.0.0
+category:       Unclassified
+homepage:       https://github.com/k-bx/generic-lens-example#readme
+author:         Kostiantyn Rybnikov
+maintainer:     k-bx@k-bx.com
+copyright:      All Rights Reserved
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable generic-lens-example
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , generic-lens
+  other-modules:
+      Paths_generic_lens_example
+  default-language: Haskell2010

@@ -1,0 +1,21 @@
+name:                generic-lens-example
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/k-bx/generic-lens-example#readme
+license:             BSD3
+author:              Kostiantyn Rybnikov
+maintainer:          k-bx@k-bx.com
+copyright:           All Rights Reserved
+category:            Unclassified
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - generic-lens
+
+executables:
+  generic-lens-example:
+    source-dirs:      src
+    main:             Main.hs
